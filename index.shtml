@@ -1,0 +1,44 @@
+<html>
+<HEAD>
+<meta charset="utf-8" />
+<TITLE>Tileserver <!--#echo var="HOSTNAME" -->.openstreetmap.de</TITLE>
+<meta name="viewport" content="initial-scale=1.0, user-scalable=no, width=device-width">
+
+<link rel="stylesheet" href="ol.css" />
+<link rel="stylesheet" href="ol3-layerswitcher.css" />
+<link rel="stylesheet" href="ol3-contextmenu.min.css" />
+
+<style>
+table#info
+{
+  border-collapse:separate;
+  border-spacing: 0px;
+  border-bottom: 0px;
+  margin-bottom: 5px;
+  display: block;
+}
+</style>
+</head>
+<body>
+<div id="header">
+<h2><img src="osm_logo.png" width="50px" style="vertical-align: middle"> Tileserver <!--#echo var="HOSTNAME" -->.openstreetmap.de</h2>
+<p>
+<table border="0" id="info">
+  <tr><td>Info zum Stil:<td><a href="https://wiki.openstreetmap.org/wiki/German_Style">https://wiki.openstreetmap.org/wiki/German_Style</a>
+  <tr><td>Quellcode:<td><a href="http://github.com/giggls/openstreetmap-carto-de">http://github.com/giggls/openstreetmap-carto-de</a>
+  <tr><td>Aktive Version: <td>
+  <!--#exec cmd="./gen_hash_link.sh" -->
+</table>
+</div>
+</p>
+  <p>
+  <div id="map">
+  <script src="jquery-3.1.1.min.js"></script>
+  <script src="ol.js"></script>
+  <script src="ol3-layerswitcher.js"></script>
+  <script src="ol3-contextmenu.js"></script>
+  <script src="genmap.js"></script>
+  </div>
+  </p>
+</body>
+</html>
