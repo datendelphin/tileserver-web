@@ -76,9 +76,9 @@ var layerState;
 
 (function() {
 
-    // default zoom, center and rotation (Karlsruhe);
-    var zoom = 12;
-    var center = ol.proj.transform([8.41,49], 'EPSG:4326', 'EPSG:3857')
+    // default zoom, center and rotation (Germany);
+    var zoom = 6;
+    var center = ol.proj.transform([10.33649,51.006271], 'EPSG:4326', 'EPSG:3857')
     var rotation = 0;
 
     layers = new ol.layer.Group({
