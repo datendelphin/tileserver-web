@@ -17,11 +17,30 @@ table#info
   margin-bottom: 5px;
   display: block;
 }
+a {
+  text-decoration: none;
+}
+a:link {
+  color: #15590e;
+}
+a:visited {
+  color: #15590e;
+}
+a:hover {
+  color: #15590e;
+}
+a:active {
+  color: #15590e;
+}
+h1 {
+  font-weight: bold;
+}
 </style>
 </head>
 <body>
 <div id="header">
-<h2><img src="osm_logo.png" width="50px" style="vertical-align: middle"> Tileserver <!--#echo var="HOSTNAME" -->.openstreetmap.de</h2>
+<h2><img src="osm_logo.png" width="50px" style="vertical-align: middle">
+<a href="https://<!--#echo var="HOSTNAME" -->.openstreetmap.de">Tileserver <!--#echo var="HOSTNAME" -->.openstreetmap.de</a></h2>
 <p>
 <table border="0" id="info">
   <tr><td>Info zum Stil:<td><a href="https://wiki.openstreetmap.org/wiki/German_Style">https://wiki.openstreetmap.org/wiki/German_Style</a>
