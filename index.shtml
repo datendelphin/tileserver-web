@@ -45,6 +45,7 @@ h1 {
 <table border="0" id="info">
   <tr><td>Info zum Stil:<td><a href="https://wiki.openstreetmap.org/wiki/German_Style">https://wiki.openstreetmap.org/wiki/German_Style</a>
   <tr><td>Quellcode:<td><a href="http://github.com/giggls/openstreetmap-carto-de">http://github.com/giggls/openstreetmap-carto-de</a>
+  <tr><td>Nutzungsbedingungen:<td><a href="https://fossgis.de/arbeitsgruppen/osm-server/nutzungsbedingungen/">https://fossgis.de/arbeitsgruppen/osm-server/nutzungsbedingungen/</a>
   <tr><td>Aktive Version: <td>
   <!--#exec cmd="./gen_hash_link.sh" -->
 </table>
